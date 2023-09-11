@@ -1,0 +1,203 @@
+.wrapper {
+    width: 55%;
+}
+  
+.table-container {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+table {
+    width: 100%; 
+    font-size: 16px;
+    background-color: white;
+    font-family: "Arial";
+    border-collapse: collapse; 
+    text-align: center; 
+    border: 1px solid rgb(58, 13, 78);
+}
+
+.table-button {
+    float: right;
+    background-color: #B509AE;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 20px;
+}
+
+.table-menu {
+    color: white;
+    background-color: rgb(58, 13, 78);
+    
+}
+
+
+td {
+    padding: 20px 10px;
+}
+
+
+.input {
+    width: 100%; 
+    background-color: #B509AE;
+    border: 1px solid #B509AE;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    padding: 0 25px;
+    height: 50px;
+    margin-bottom: 5rem;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.box {
+   font-family: "Arial", sans-serif;
+   z-index: 3;
+   float: left;
+   margin-top: 10px;
+}
+
+.box__button {
+    outline: none;
+    background-color: white;
+   border: 1px solid #B509AE;
+   border-top-left-radius: 4%;
+   border-top-right-radius: 4%;
+   padding: 2px 9px;
+}
+
+.box__button:hover {
+    cursor: pointer;
+}
+
+
+
+.box__text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.box__icon {
+    width: 24px;
+}
+
+/* Filter Menu */
+
+.menu {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 15vh;
+    display: none;
+}
+
+.menu__window {
+    background-color: white;
+    width: fit-content;
+    display: block;
+    padding: 7vh 3vw;
+    border: 1px solid #B509AE;
+    border-radius: 15px;
+    font-family: "Helvetica";
+    width: 200px;
+}
+
+.menu__window__icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 48px;
+}
+
+.menu__window__label {
+    display: inline-block;
+    font-weight: bold;
+    left: 0px;
+    font-family: "Helvetica";
+}
+
+.menu__window__label--secondary {
+    margin-top: 15px;
+}
+
+.menu__window__title {
+    margin: 10px;
+}
+
+.menu__window__radio {
+    margin-left: 10px;   
+}
+
+.menu__window__checkbox {
+    float: right;
+    margin-top: 13px;
+}
+
+.menu__window__icon:hover {
+    cursor: pointer;
+}
+
+.menu__window__wrapper {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.menu__window__wrapper--secondary {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+
+.menu__window__button {
+    border: 1px solid #B509AE;
+    border-radius: 15px;
+    font-family: "Jockey one", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.menu__window__button:hover {
+    cursor: pointer;
+}
+
+
+
+.text-default {
+    font-size: 16px;
+}
+
+/* Dark/Light Mode */
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.dark-mode__table {
+    background-color: rgb(48, 48, 48);
+  }
+
+.dark-mode__text {
+    color: white;
+}
+
+.dark-mode-table-rows {
+    background-color: rgb(74, 66, 77);
+}

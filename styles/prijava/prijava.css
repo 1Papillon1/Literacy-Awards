@@ -1,0 +1,43 @@
+.layout {
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial';
+}
+
+.title {
+    font-size: 28px;
+}
+
+.container {
+    width: 20vw;
+    padding: 40px 60px;
+    background-color: #eeeeee;
+    margin-top: 30vh;
+}
+
+input[type=text] {
+    width: 100%;
+    font-family: 'Arial';
+    font-size: 18px;
+    padding: 6px;
+    margin-bottom: 2vh;
+}
+
+input[type=password] {
+    width: 100%;
+    font-family: 'Arial';
+    font-size: 18px;
+    padding: 6px;
+    margin-bottom: 2vh;
+}
+
+input[type=submit] {
+    margin-top: 1vh;
+    background-color: #B509AE;
+    padding: 8px 38px;
+    outline: 0;
+    font-family: 'Arial';
+    border: 0;
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,24 @@
+/* 
+    footer.css
+*/
+
+.footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+.footer__title {
+    color: rgb(233, 233, 233);
+    margin-left: 5vw;
+    font-size: 18px;
+    font-family: 'Arial';
+   
+}
+
+.dark-mode__footer {
+    background-color: rgb(84, 84, 84);
+  }

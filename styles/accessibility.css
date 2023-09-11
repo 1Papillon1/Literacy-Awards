@@ -1,0 +1,181 @@
+/* accessibility.css */
+
+
+.icon__accessibility {
+    position: absolute;
+    bottom: 20vh;
+    right: 2vw;
+}
+
+.icon__accessibility:hover {
+    cursor: pointer;
+}
+
+.sidebar {
+	background-color: gray;
+    border: 1px solid black;
+	border-right: 0px solid black;
+	width: 6rem;
+	height: 25vh;
+	padding: 0;
+	position: fixed;
+	transition: transform 300ms ease-out;
+    right: 0px;
+	bottom: 10vh;
+}
+
+.sidebar__toggle {
+	position: fixed;
+	background-color: lightgray;
+	right: 6rem;
+	margin-top: -1px;
+	border: 1px solid black;
+	border-right: 0px;
+	height: 25vh;
+	border-bottom-left-radius: 30%;
+	border-top-left-radius: 30%;
+}
+
+.sidebar__toggle:hover {
+	cursor: pointer;
+}
+
+.sidebar__toggle__button {
+	margin-top: 9vh;
+}
+
+.sidebar--isHidden {
+    transform: translateX(6rem);
+	transition: transform 300ms ease-in;
+}
+
+.container--secondary {
+	margin: 10px;
+}
+
+.sidebar__wrapper {
+	margin-bottom: 2rem;
+	width: 100%;
+	clear: both;
+}
+
+.container__span {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+/* Toggle */
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	float: right;
+  }
+  
+.label--secondary {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 50px;
+	height: 30px;
+	background: white;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+	float: right;
+  }
+  
+.label--secondary::before {
+	content: "White/Dark";
+	font-size: 18px;
+}
+
+.label--secondary:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	background: black;
+	border-radius: 90px;
+	transition: 0.3s;
+  }
+  
+  .container__input:checked + .label--secondary {
+	background: black;
+  }
+  
+  .container__input:checked + .label--secondary:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+	background: white;
+  }
+  
+  .label--secondary:active:after {
+	width: 130px;
+  }
+
+  .icon__group {
+	margin-top: 1rem;
+	float: right;
+	right: 0;
+	clear: both;
+	
+}
+
+.icon__group--secondary {
+	margin-top: 20px;
+}
+
+.container__span--secondary {
+	margin-top: 20px;
+}
+
+/* Font Size */
+
+
+
+
+.sidebar__icon {
+	border-radius: 10%;
+}
+
+.sidebar__icon:hover {
+	cursor: pointer;
+}
+
+#font--default {
+	background-color: white;
+	padding: 5px;
+	width: 15px;
+	height: 15px;
+}
+
+#font--large {
+	background-color: white;
+	padding: 5px;
+	width: 25px;
+	height: 25px;
+}
+
+.sidebar__button {
+	float: right;
+	font-size: 18px;
+	outline: none;
+	width: 30px;
+	height: 30px;
+}
+
+.sidebar__button:hover {
+	cursor: pointer;
+}
+
+/* Font Weight */
+
+#weight-bold {
+	font-weight: bold;
+}

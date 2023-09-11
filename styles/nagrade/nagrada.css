@@ -1,0 +1,42 @@
+/* nagrada.css */
+body {
+  font-family: 'Arial';
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.title-default {
+  font-size: 24px;
+  font-family: 'Arial', 'sans-serif'; 
+}
+
+.list__item-default {
+  font-size: 18px;
+  font-family: 'Arial', 'sans-serif'; 
+}
+
+.text-default {
+  font-size: 16px;
+  font-family: 'Arial', 'sans-serif';
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif; 
+}
+
+.pink-button {
+  background-color: violet;
+  color: white; 
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 0px; 
+  font-family: Arial, sans-serif; 
+  text-decoration: none; 
+  cursor: pointer; 
+}
+

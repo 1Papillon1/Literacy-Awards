@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/accessibility.js"></script>
+    <link rel="stylesheet" href="styles/accessibility.css">
+</head>
+<body>
+    <div class="sidebar sidebar--isHidden">
+        <div id="toggle" class="sidebar__toggle">
+            <img src='./media/icons/icons8-back-50.png' alt='toggle__button' class='sidebar__toggle__button'/>
+        </div>
+        <div class="container--secondary">
+            <div class="sidebar__wrapper">
+                <input id="switch" onclick="darkLigToggle()" class='container__input' name="switch" type="checkbox" /><label class='label--secondary' for="switch">Toggle</label>
+            </div>
+            <div class="sidebar__wrapper">
+                <div class="icon__group">
+                    <img class='sidebar__icon' onclick="fontSizeDef()" id="font--default" src='./media/icons/icons8-font-size-30.png' alt='font__default' id="font__default"/>
+                    <img class='sidebar__icon' onclick="fontSizeLar()" id="font--large" src='./media/icons/icons8-font-size-30.png' alt='font__large' id="font__large"/>
+                </div>
+            </div>
+            <div class="sidebar__wrapper">
+                <div class="icon__group">
+                <button onclick="fontWeightBold()" id="weight-bold" class="sidebar__button">
+                    B
+                </button>
+                <button onclick="fontWeightNormal()"  id="weight-default" class="sidebar__button">
+                    B
+                </button>
+                </div>
+            </div>  
+             
+            <div class="sidebar__wrapper">
+                <div class="icon__group">
+                <button onclick="linkUnderline()" id="link-underline" class="sidebar__button">
+                    <u>L</u>
+                </button>
+                <button onclick="linkDefault()"  id="link-default" class="sidebar__button">
+                    L
+                </button>
+                </div>
+            </div> 
+
+            </div>
+        </div>
+	</div>
+</body>
+</html>

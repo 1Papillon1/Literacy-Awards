@@ -1,0 +1,94 @@
+
+.table-container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 55%;
+}
+
+.input {
+    width: 100%; 
+    background-color: #B509AE;
+    border: 1px solid #B509AE;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    margin-bottom: 5%;
+    border-radius: 4px;
+    padding: 0 25px;
+    height: 50px;
+    margin-bottom: 5rem;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.table-button {
+    float: right;
+    background-color: #B509AE;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 20px;
+}
+
+.table {
+    width: 100%; 
+    font-size: 16px;
+    background-color: white;
+    font-family: "Arial";
+    border-collapse: collapse; 
+    text-align: center; 
+    border: 1px solid rgb(58, 13, 78);
+}
+
+.table-menu {
+    color: white;
+    background-color: rgb(58, 13, 78);
+    
+}
+
+.table-row {
+    border-bottom: 1px solid black;
+}
+
+
+td {
+    padding: 20px 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Dark mode */ 
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.dark-mode__table {
+    background-color: rgb(48, 48, 48);
+  }
+
+.dark-mode__text {
+    color: white;
+}
+
+.dark-mode-table-rows {
+    background-color: rgb(74, 66, 77);
+}
+
+.dark-mode__wrapper {
+    background-color: rgb(76, 76, 76);
+}
